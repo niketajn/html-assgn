@@ -1,0 +1,250 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: darkgray;
+}
+
+div .bgColor{
+  background-color: darkgray;
+}
+.topnav {
+  overflow: hidden;
+  border-bottom: 1px solid #000;
+}
+
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  color:gray;
+  font-weight:bold;
+}
+
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: gray;
+}
+
+.rowbgColor{
+  background-color: #fff;
+}
+
+.borderAlign{
+  border-right: 1px solid #000;
+  height: 94px;
+}
+
+.bodyborderAlign{
+  border-right: 1px solid #000;
+  height: 1000px;
+  padding-top:25px;
+  padding-right:5px;
+  padding-left: 10px;
+}
+
+.rightDiv{
+  font-weight: bold;
+}
+
+.nextHalf{
+  background-color: #fff;
+  margin-top: 50px;
+  height: 1000px;
+}
+
+.secondnav a{
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color:#5DAFE5;
+  font-weight:bold;
+  font-family:Arial;
+}
+
+.secondnav a:hover{
+  color: #000;
+}
+
+.secondnav a.active{
+  background-color: #4CAF50;
+  color: white;
+}
+
+#energy-list-itmes li{
+  list-style-type: none;
+  font-size: 13px;
+  color:#5DAFE5;
+  font-weight: bold;
+  margin: 20px 0 3px 0;
+}
+
+#energy-list-itmes{
+  padding-left: 0px;
+}
+
+.divBody a{
+    line-height: 1em;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    margin: 1px;
+}
+
+.energyPower{
+  font-size: 30px;
+  padding:10px;
+}
+
+.image{
+  background-color: #000;
+  padding:10px;
+  height:100px;
+}
+
+#listItems{
+  list-style-type: none;
+  font-size: 15px;
+  color:#5DAFE5;
+  font-family: arial; 
+  padding-left:0px;
+  padding-top:20px;
+}
+
+
+#listItems .listDate{
+  color:#000;
+  font-size: 12px;
+  padding-top: 3px;
+}
+
+.listDiv{
+  padding-left: 0px;
+}
+
+.subLinks{
+  border-bottom: 1px solid gray;
+   color:#5DAFE5;
+   font-family:arial;
+   font-size:12px;
+   padding-top:15px;
+}
+
+.iotTitle{
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  color:#5DAFE5;
+}
+
+.rightPublishReport{
+  padding-left: 22px;
+}
+
+.rightPublishReport .row{
+  background-color: yellowgreen;
+}
+
+.leftPublishReport{
+  padding-right: 22px;
+  
+}
+
+.leftPublishReport .row{
+  background-color: gold;
+  
+}
+
+.iotRow{
+  padding-left:10px;
+}
+
+.helpBox{
+  background-color: #D3D3D3;
+  margin-top: 10px;
+  padding:10px;
+  margin-bottom: 30px;
+}
+
+#analystList{
+  list-style-type: none;
+
+}
+
+.analystBlock{
+
+height: 75px;
+}
+
+.analystImg{
+  background-color: #D3D3D3; 
+  height: 100%;
+  width:100%;
+}
+
+.helpboxWrapper{
+  padding-right: 20px;
+    padding-top: 25px;
+}
+
+.iotLeftWrapper{
+  padding-top:10px;
+  color:#fff;
+}
+
+footer{
+  background-color: #333;
+  color:gray;
+  display:block;
+  vertical-align:top;
+  padding:3em;
+  border-top:1px solid #aaa;
+}
+
+footer .footerMargin{
+  margin-top:15px;
+}
+
+.footerPipeLine {
+  border-right: 1px solid #7b7b7b;
+  padding: 0 3px 0 3px;
+}
+.InnerfooterPipeLine {
+  border-right: 1px solid #7b7b7b;
+  padding: 0 3px 0 3px;
+}
+
+.footerPipeLine a{
+  color:#fff;
+}
+
+.InnerfooterPipeLine a{
+color: #D3D3D3;
+font-size: 10px;
+
+}
+
+.footerText{
+color:#fff;
+}
+
+.footerTextColor{
+  color:#D3D3D3;
+  font-size: 10px;
+}
+
+ul .list-inline a{
+  float:none;
+  margin: 0 auto;
+   display: table;
+   table-layout: fixed;
+   color:#fff;
+}
+
+.nestedPipeline{
+  margin-top:12px;
+}
